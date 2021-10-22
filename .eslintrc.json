@@ -1,0 +1,71 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+        "@typescript-eslint/eslint-plugin",
+        "react",
+        "react-hooks"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:react-hooks/recommended",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "rules": {
+        "prefer-const": "warn",
+        "no-useless-escape": "off",
+        "no-prototype-builtins": "off",
+        "react/prop-types": "off",
+        "react/display-name": "off",
+        "react/jsx-uses-react": "off",
+        "react/react-in-jsx-scope": "off",
+        "@typescript-eslint/no-explicit-any": "off",
+        "@typescript-eslint/no-non-null-asserted-optional-chain": "off",
+        "@typescript-eslint/explicit-module-boundary-types": "off",
+        "@typescript-eslint/triple-slash-reference": "off",
+        "@typescript-eslint/no-use-before-define": "off",
+        "@typescript-eslint/no-non-null-assertion": "off",
+        "@typescript-eslint/no-var-requires": "off",
+        "@typescript-eslint/interface-name-prefix": "off",
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "@typescript-eslint/no-empty-function": "off",
+        "@typescript-eslint/no-inferrable-types": "off",
+        "@typescript-eslint/consistent-type-imports": "warn",
+        "@typescript-eslint/member-delimiter-style": [
+            "off",
+            {
+                "multiline": {
+                    "delimiter": "none", // 'none | semi | comma
+                    "requireLast": false
+                },
+                "singleline": {
+                    "delimiter": "comma", // semi | comma
+                    "requireLast": false
+                }
+            }
+        ],
+        "no-trailing-spaces": [
+            "warn"
+        ],
+        "semi": [
+            "warn",
+            "never"
+        ],
+        "quotes": [
+            "warn",
+            "single",
+            {
+                "avoidEscape": true,
+                "allowTemplateLiterals": true
+            }
+        ],
+        "jsx-quotes": [
+            "warn",
+            "prefer-double"
+        ],
+        "comma-style": [
+            "warn",
+            "last"
+        ]
+    }
+}
