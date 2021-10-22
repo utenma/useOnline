@@ -1,14 +1,14 @@
 {
   "name": "@saulpalv/useonline",
-  "private" : false,
-  "version": "1.0.0",
+  "private": false,
+  "version": "1.0.1",
   "description": "A hook for device connectivity state",
   "main": "lib/useOnline.js",
   "types": "lib/useOnline.d.ts",
   "scripts": {
     "publish": "npm publish --access=public",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
+    "build": "tsc --build",
     "lint": "eslint \"./src/**/*.{js,jsx,ts,tsx}\" --fix"
   },
   "repository": {
