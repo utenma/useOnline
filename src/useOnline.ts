@@ -13,7 +13,7 @@ export const useOnline = () => {
             window.removeEventListener('online', onOnline)
             window.removeEventListener('offline', onOffline)
         }
-    }, [onOffline, onOnline])
+    }, [])
 
     return online
 }
