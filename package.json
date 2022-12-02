@@ -27,15 +27,15 @@
   },
   "homepage": "https://github.com/saulpalv/useOnline#readme",
   "devDependencies": {
-    "@types/react": "^17.0.31",
-    "@typescript-eslint/eslint-plugin": "^5.1.0",
-    "@typescript-eslint/parser": "^5.1.0",
-    "eslint": "^7.32.0",
-    "eslint-plugin-react": "^7.26.1",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "typescript": "^4.4.4"
+    "@types/react": "^17",
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.45.0",
+    "eslint": "^8.28.0",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "typescript": "^4.9.3"
   },
   "dependencies": {
-    "react": "^17.0.2"
+    "react": "^17"
   }
 }
