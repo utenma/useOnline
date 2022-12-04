@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "pack": "npm pack --dry-run",
-    "publish": "npm publish --dry-run --access=public",
+    "publish": "npm publish --access=public",
     "bump": "npm version patch",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc --build",
