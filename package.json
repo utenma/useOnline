@@ -1,7 +1,7 @@
 {
   "name": "@saulpalv/useonline",
   "private": false,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A hook for device connectivity state",
   "main": "lib/useOnline.js",
   "types": "lib/useOnline.d.ts",
