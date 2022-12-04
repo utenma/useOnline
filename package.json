@@ -5,8 +5,13 @@
   "description": "A hook for device connectivity state",
   "main": "lib/useOnline.js",
   "types": "lib/useOnline.d.ts",
+  "files": [
+    "lib"
+  ],
   "scripts": {
-    "publish": "npm publish --access=public",
+    "pack": "npm pack --dry-run",
+    "publish": "npm publish --dry-run --access=public",
+    "bump": "npm version patch",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc --build",
     "lint": "eslint \"./src/**/*.{js,jsx,ts,tsx}\" --fix"
